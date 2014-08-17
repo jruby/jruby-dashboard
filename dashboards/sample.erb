@@ -1,0 +1,23 @@
+<% content_for :title do %>JRuby Dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="heap_size" data-view="Graph" data-title="Heap Size"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="heap_usage" data-view="Graph" data-title="Heap Usage"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="evals" data-view="Number" data-title="Eval Parses"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="loads" data-view="Number" data-title="Load Parses"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="exceptions" data-view="Number" data-title="Exceptions"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="callers" data-view="Number" data-title="Kernel#caller"></div>
+    </li>
+  </ul>
+</div>
